@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "22787559"))
   API_HASH = os.environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7731772319:AAHqu2K5NWA1toOOGhB0ajJ546SPzznfEBs")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7731772319:AAECxMhhBZHE6tTfeI956OC3jYyX1_rSAjs")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "latesttvshow_File_store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "arolinks.com")
