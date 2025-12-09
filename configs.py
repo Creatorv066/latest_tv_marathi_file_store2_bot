@@ -9,7 +9,7 @@ class Config(object):
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "arolinks.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "7b9fcabe2375bce5da85ec5c19fa3577c39de5bc")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1562792211"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.kailvlv.mongodb.net/?retryWrites=true&w=majority")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.at9o8xi.mongodb.net/?appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001988223746")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001881381645"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
