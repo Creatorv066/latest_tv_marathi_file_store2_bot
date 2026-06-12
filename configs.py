@@ -18,7 +18,7 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
+𝐓𝐡𝐢𝐬 𝐢𝐬 𝐚 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐅𝐢𝐥𝐞𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭.
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
 ╭────[ 💡FɪʟᴇSᴛᴏʀᴇBᴏᴛ💡]────⍟
